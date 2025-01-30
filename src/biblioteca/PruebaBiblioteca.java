@@ -6,7 +6,7 @@ package biblioteca;
 public class PruebaBiblioteca {
 	
 	public static void main(String[] args) {
-	Libro libro1 = new Libro("Cien anyos de soledad","Gabriel García Márquez", 1967, 1); // creacion de objeto 1
+	Libro libro1 = new Libro("holaholaholanuevolibro", "1123", 1967, 1); // creacion de objeto 1
 	Libro libro2 = new Libro("El código Da Vinci","Dan Brown", 2003); // creacion de objeto 2
 	System.out.println(libro1.prestar());// llamo al metodo prestar 
 	libro1.mostrarInformacion(); // llamo al metodo mostrar informacion
